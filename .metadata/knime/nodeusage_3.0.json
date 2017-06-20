@@ -86,9 +86,9 @@
             },
             {
                 "id":"org.knime.base.node.io.csvwriter.CSVWriterNodeFactory#CSV Writer",
-                "nrexecs":0,
+                "nrexecs":1,
                 "nrfails":0,
-                "exectime":0,
+                "exectime":10,
                 "nrcreated":1,
                 "successor":"n/a"
             }
@@ -102,11 +102,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":4410139,
+    "uptime":4841714,
     "workflowsOpened":3,
     "remoteWorkflowsOpened":0,
     "launches":8,
-    "timeSinceLastStart":1439348,
+    "timeSinceLastStart":4891952,
     "crashes":0,
-    "properlyShutDown":false
+    "properlyShutDown":true
 }

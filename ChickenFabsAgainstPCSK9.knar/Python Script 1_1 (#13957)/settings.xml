@@ -27,7 +27,7 @@
 <entry key="state" type="xstring" value="CONFIGURED"/>
 <config key="nodecontainer_message">
 <entry key="type" type="xstring" value="ERROR"/>
-<entry key="message" type="xstring" value="Execute failed: Output file '/opt/tmp/Python11_out_4204888134625323488.spec' not found"/>
+<entry key="message" type="xstring" value="Execute failed: Output file '/opt/tmp/Python11_out_1209206139545431429.spec' not found"/>
 </config>
 <entry key="factory" type="xstring" value="com.schrodinger.knime.node.python11.Python11NodeFactory"/>
 <entry key="node-name" type="xstring" value="Python Script 1:1"/>
