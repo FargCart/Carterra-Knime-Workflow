@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="python_script" type="xstring" value="iterator = inData[0].iterator()%%00010while iterator.hasNext():%%00010    row = iterator.next()%%00010    col4 = row.getCell(5) #Hydrogen Bonds%%00010    col5 = row.getCell(6) #Salt Bridges%%00010    col6 = row.getCell(7) #Pi Stacking%%00010    col7 = row.getCell(8) #Disulfides%%00010    col8 = row.getCell(9) #vdW Clashes%%00010    col10 = row.getCell(11).getValue() #Buried SASA%%00010    col10stripped = col10.strip('%')%%00010    #if col10stripped &gt; float(5.0):%%00010    #Adding the if will get rid of SASA's below 5%    %%00010    newDoubleCell = DoubleCell()%%00010    newDoubleCell.setValue(col4.value + col5.value + col6.value + col7.value + col8.value)%%00010    newRow = AppendedColumnRow(row, [ newDoubleCell ])  # Appending new column to the input columns%%00010    newRow.colNames = [ &quot;Hits&quot;]   # sets the column name%%00010    outContainer[0].addRowToTable(newRow)"/>
+<entry key="schrodinger_plugin_version" type="xstring" value="3.8.13.201705241618"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="com.schrodinger.knime.node.python11.Python11NodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script 1:1"/>
+<entry key="node-bundle-name" type="xstring" value="SchrodingerFreeNodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="com.schrodinger.knime.freenodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="Schrodinger"/>
+<entry key="node-bundle-version" type="xstring" value="3.8.13.201705241618"/>
+<entry key="node-feature-name" type="xstring" value="Schrödinger Free Nodes"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="com.schrodinger.knime.feature.freenodes.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="Schrodinger"/>
+<entry key="node-feature-version" type="xstring" value="3.8.13.201705241618"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script 1:1"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

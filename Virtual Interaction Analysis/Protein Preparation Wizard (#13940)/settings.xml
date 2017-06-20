@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="column_name" type="xstring" value="CT"/>
+<entry key="output_column_struct" type="xstring" value="Output replaces Input"/>
+<entry key="output_type" type="xstring" value="Maestro"/>
+<entry key="use_output_column_name" type="xboolean" value="true"/>
+<entry key="output_column_name" type="xstring" value="CT"/>
+<entry key="has_errors" type="xboolean" value="false"/>
+<entry key="hostname" type="xstring" value="localhost:0"/>
+<entry key="bond_orders" type="xboolean" value="true"/>
+<entry key="h_treat" type="xboolean" value="true"/>
+<entry key="cap_termini" type="xboolean" value="false"/>
+<entry key="delete_far_water" type="xboolean" value="true"/>
+<entry key="water_distance" type="xstring" value="5"/>
+<entry key="metal_treat" type="xboolean" value="true"/>
+<entry key="treat_disulfides" type="xboolean" value="false"/>
+<entry key="mse" type="xboolean" value="true"/>
+<entry key="fill_loops" type="xboolean" value="false"/>
+<entry key="prot_assign" type="xboolean" value="true"/>
+<entry key="sample_water" type="xboolean" value="true"/>
+<entry key="use_simplified_rules" type="xboolean" value="false"/>
+<entry key="use_impref" type="xboolean" value="true"/>
+<entry key="rmsd" type="xstring" value="0.30"/>
+<entry key="fix_impref" type="xboolean" value="false"/>
+<entry key="njobs" type="xint" value="8"/>
+<entry key="njobs_has_been_set" type="xboolean" value="true"/>
+<entry key="schrodinger_plugin_version" type="xstring" value="3.7.10.201702201108"/>
+<entry key="output_include" type="xboolean" value="false"/>
+<entry key="output_update" type="xboolean" value="true"/>
+<entry key="output_nothing" type="xboolean" value="false"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Optimization"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="207"/>
+<entry key="y-coordinate" type="xint" value="99"/>
+<entry key="width" type="xint" value="107"/>
+<entry key="height" type="xint" value="13"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="com.schrodinger.knime.node.prepwizard.PrepWizardNodeFactory"/>
+<entry key="node-name" type="xstring" value="Protein Preparation Wizard"/>
+<entry key="node-bundle-name" type="xstring" value="Schrödinger extension for KNIME Workbench"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="com.schrodinger.knime.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="Schrödinger"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.10.201702201108"/>
+<entry key="node-feature-name" type="xstring" value="Schrödinger Nodes Feature"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="com.schrodinger.knime.feature.nodes.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="Schrödinger"/>
+<entry key="node-feature-version" type="xstring" value="3.7.10.201702201108"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Protein Preparation Wizard"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

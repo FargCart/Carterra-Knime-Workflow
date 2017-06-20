@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="load_file_into_cell" type="xstring" value="Load each structure in one cell"/>
+<entry key="add_origin_columns" type="xboolean" value="false"/>
+<entry key="load_into_one_cell" type="xboolean" value="false"/>
+<entry key="load_each_into_one_cell" type="xboolean" value="false"/>
+<entry key="output_column_name" type="xstring" value="Molecule for Coloring"/>
+<config key="DataURL">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="file:/Users/mchollandred/Dropbox/Adam/SchrodingerChicken/PCSK9.pdb"/>
+</config>
+<config key="importAll">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xboolean" value="true"/>
+</config>
+<config key="importToEnd">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xboolean" value="true"/>
+</config>
+<config key="startLigand">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xint" value="1"/>
+</config>
+<config key="totalLigand">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xint" value="1"/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Cannot access 'file:/Users/mchollandred/Dropbox/Adam/SchrodingerChicken/PCSK9.pdb': /Users/mchollandred/Dropbox/Adam/SchrodingerChicken/PCSK9.pdb (No such file or directory)"/>
+</config>
+<entry key="factory" type="xstring" value="com.schrodinger.knime.node.maemultifilereader.MAEMultiFileReaderNodeFactory"/>
+<entry key="node-name" type="xstring" value="Molecule Reader (to MAE)"/>
+<entry key="node-bundle-name" type="xstring" value="SchrodingerFreeNodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="com.schrodinger.knime.freenodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="Schrodinger"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.10.201702201108"/>
+<entry key="node-feature-name" type="xstring" value="Schrödinger Free Nodes"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="com.schrodinger.knime.feature.freenodes.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="Schrodinger"/>
+<entry key="node-feature-version" type="xstring" value="3.7.10.201702201108"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Molecule Reader (to MAE)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

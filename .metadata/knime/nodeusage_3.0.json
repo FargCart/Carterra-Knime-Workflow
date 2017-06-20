@@ -1,0 +1,112 @@
+
+{
+    "version":"3.3.2.v201704041558",
+    "created":"2017-06-09 16:42",
+    "nodestats":{
+        "nodes":[
+            {
+                "id":"com.schrodinger.knime.node.maemultifilereader.MAEMultiFileReaderNodeFactory#Molecule Reader (to MAE)",
+                "nrexecs":6,
+                "nrfails":11,
+                "exectime":8387,
+                "nrcreated":0,
+                "successor":"NodeContainer"
+            },
+            {
+                "id":"com.schrodinger.knime.node.chemexttool.ChemExternalToolNodeFactory#Chemistry External Tool",
+                "nrexecs":46,
+                "nrfails":18,
+                "exectime":9969620,
+                "nrcreated":1,
+                "successor":"com.schrodinger.knime.node.python11.Python11NodeFactory#Python Script 1:1"
+            },
+            {
+                "id":"org.knime.base.node.io.csvreader.CSVReaderNodeFactory#CSV Reader",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":66,
+                "nrcreated":1,
+                "successor":"NodeContainer"
+            },
+            {
+                "id":"com.schrodinger.knime.node.python11.Python11NodeFactory#Python Script 1:1",
+                "nrexecs":16,
+                "nrfails":19,
+                "exectime":301001,
+                "nrcreated":2,
+                "successor":"org.knime.base.node.preproc.cellsplit.CellSplitterNodeFactory#Cell Splitter"
+            },
+            {
+                "id":"org.knime.ext.poi2.node.read2.XLSReaderNodeFactory#Excel Reader (XLS)",
+                "nrexecs":4,
+                "nrfails":0,
+                "exectime":7559,
+                "nrcreated":1,
+                "successor":"com.schrodinger.knime.node.python11.Python11NodeFactory#Python Script 1:1"
+            },
+            {
+                "id":"org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":0,
+                "successor":"com.schrodinger.knime.node.python11.Python11NodeFactory#Python Script 1:1"
+            },
+            {
+                "id":"org.knime.quickform.nodes.in.string.StringInputQuickFormInNodeFactory#String Input (legacy)",
+                "nrexecs":4,
+                "nrfails":0,
+                "exectime":4,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.cellsplit.CellSplitterNodeFactory#Cell Splitter",
+                "nrexecs":15,
+                "nrfails":0,
+                "exectime":170,
+                "nrcreated":0,
+                "successor":"org.knime.base.node.preproc.cellsplit.CellSplitterNodeFactory#Cell Splitter"
+            },
+            {
+                "id":"org.knime.ext.poi2.node.write2.XLSWriter2NodeFactory#Excel Writer (XLS)",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":553,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.ext.poi2.node.write2.XLSAppenderNodeFactory#Excel Sheet Appender (XLS)",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.io.csvwriter.CSVWriterNodeFactory#CSV Writer",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            }
+        ],
+        "metaNodes":{
+            "nrexecs":0,
+            "nrfails":0,
+            "exectime":0,
+            "nrcreated":0
+        },
+        "wrappedNodes":{
+        }
+    },
+    "uptime":4410139,
+    "workflowsOpened":3,
+    "remoteWorkflowsOpened":0,
+    "launches":8,
+    "timeSinceLastStart":1439348,
+    "crashes":0,
+    "properlyShutDown":false
+}

@@ -1,0 +1,6 @@
+PRIMARY_HOST_CPUS=8
+SECONDARY_HOST_CPUS=8
+eclipse.preferences.version=1
+pymol4maestro=/Applications
+schrodinger=/opt/Schrodinger/suites2017-2
+temp.dir=/opt/tmp

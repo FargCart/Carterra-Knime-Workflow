@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="column_name" type="xstring" value="Molecule for Coloring"/>
+<entry key="output_column_struct" type="xstring" value="Output replaces Input"/>
+<entry key="output_type" type="xstring" value="Maestro"/>
+<entry key="use_output_column_name" type="xboolean" value="true"/>
+<entry key="output_column_name" type="xstring" value="Colored"/>
+<entry key="for_each_row" type="xboolean" value="false"/>
+<entry key="extra_argument" type="xstring" value="-profile Maestro"/>
+<entry key="cmd_line" type="xstring" value="workspaceselectionreplace all%%00010repatom rep=cpk at.selected%%00010coloratomrgb red=255 green=255 blue=255 at.selected%%00010%Color%%%00010"/>
+<entry key="pre_cmd_script" type="xstring" value="prefer writepreferencesonexit=false%%00010prefer savescratchproject=false%%00010changedirectory &quot;%tmpdir%&quot;%%00010entryimport  format=%input_format%%%00010entryimport map_sd_properties=false%%00010entryimport fittoscreen=yes%%00010entrygroupwsinclude selected isexp=true%%00010quit confirm=false%%00010entryexport files=single properties=all append=false writedupconectrecs=true reorderbyresnum=true sdfusedisplaynames=false sdfv3000=false source=selected%%00010showpanel script%%00010showpanel manageviews%%00010viewimport &quot;/Users/mchollandred/Dropbox/Maestro/Faces for Coloring.views&quot;%%00010"/>
+<entry key="enable_pre_cmd_script" type="xboolean" value="true"/>
+<entry key="schrodinger_plugin_version" type="xstring" value="3.7.10.201702201108"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="com.schrodinger.knime.node.maestrocmd.MaestroCmdNodeFactory"/>
+<entry key="node-name" type="xstring" value="Run Maestro Command"/>
+<entry key="node-bundle-name" type="xstring" value="SchrodingerFreeNodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="com.schrodinger.knime.freenodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="Schrodinger"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.10.201702201108"/>
+<entry key="node-feature-name" type="xstring" value="Schrödinger Free Nodes"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="com.schrodinger.knime.feature.freenodes.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="Schrodinger"/>
+<entry key="node-feature-version" type="xstring" value="3.7.10.201702201108"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Run Maestro Command"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

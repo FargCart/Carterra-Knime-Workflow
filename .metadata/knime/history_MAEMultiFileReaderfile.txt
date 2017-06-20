@@ -1,0 +1,8 @@
+file:/Users/mchollandred/Dropbox/Adam/SchrodingerChicken/Chicken%20AB/C2/C2.mae
+file:/Users/mchollandred/Dropbox/Adam/SchrodingerChicken/Chicken%20AB/C1/C1.mae
+file:/Users/mchollandred/Dropbox/Pymol/gD%20Type1(285).pdb
+file:/Users/mchollandred/Dropbox/Maestro/Docking/gD%20Type%20II%20(285)/gD%20Type%202%20285.pdb
+file:/Users/mchollandred/Dropbox/Maestro/Docking/gD%20Type%20I%20(285)/DL11%20gD%20Type%201%20285/DL11%20gD%20Type1%20285%20Docked/DL11_Docking_285_Type1-out.maegz
+file:/Users/mikeholland/Dropbox/Adam/C34%20Optimized%20Files:SASA/C34_O_30.mae
+file:/Users/mikeholland/Dropbox/Adam/C34%20Optimized%20Files:SASA/C34_O_29.mae
+file:/Users/mikeholland/Dropbox/Adam/C34%20Optimized%20Files:SASA/C34_O_28.mae

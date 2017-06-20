@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="default"/>
+<entry key="number_columns" type="xint" value="1"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="Protein"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="com.schrodinger.knime.type.maestro.MaestroCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties">
+<entry key="ct_fields" type="xstring" value="s_pdb_PDB_REMARK_350_Biomolecule_1_Chains%%00009s_pdb_PDB_DEPOSITION_DATE%%00009s_pdb_PDB_EXPDTA%%00009r_i_Max_Derivative-OPLS_2005%%00009r_i_Potential_Energy-OPLS_2005%%00009i_m_ct_format%%00009r_i_Electrostatic_Energy-OPLS_2005%%00009r_i_Dihedral_Energy-OPLS_2005%%00009r_i_target_temperature%%00009r_i_Bend_Energy-OPLS_2005%%00009r_pdb_PDB_CRYST1_b%%00009r_pdb_PDB_CRYST1_beta%%00009s_pdb_PDB_format_version%%00009b_ppw_prepared%%00009r_pdb_PDB_CRYST1_c%%00009r_pdb_PDB_RESOLUTION%%00009s_bioluminate_PIPER_Title%%00009s_pdb_PDB_REMARK_350_Biomolecule_1_Transformation_1%%00009r_i_Van_der_Waals_Energy-OPLS_2005%%00009r_pdb_PDB_CRYST1_a%%00009r_pdb_PDB_EXPDTA_TEMPERATURE%%00009s_pdb_PDB_CLASSIFICATION%%00009s_pdb_PDB_ID%%00009i_bioluminate_PIPER_Cluster_Size%%00009s_pdb_PDB_TITLE%%00009s_pdb_PDB_CRYST1_Space_Group%%00009r_pdb_PDB_CRYST1_gamma%%00009r_i_Stretch_Energy-OPLS_2005%%00009r_i_El-14_Energy-OPLS_2005%%00009i_pdb_PDB_CRYST1_z%%00009r_pdb_PDB_EXPDTA_PH%%00009r_i_RMS_Derivative-OPLS_2005%%00009b_ppw_converted_selenomethionines%%00009i_bioluminate_PIPER_Model_Number%%00009r_i_LJ-14_Energy-OPLS_2005%%00009s_m_title%%00009r_pdb_PDB_CRYST1_alpha%%00009# atoms%%00009# bonds%%00009"/>
+</config>
+</config>
+</config>
